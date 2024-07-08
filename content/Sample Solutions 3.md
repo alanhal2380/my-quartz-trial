@@ -38,8 +38,10 @@ $$
         1. $\mathbf{x} \cdot \mathbf{y}<0$, angle between $\mathbf{u}$ and $\mathbf{w}$ is acute
         1. $\mathbf{x} \cdot \mathbf{y}=0$, $\mathbf{v}$ and $\mathbf{w}$ are perpendicular
 2. && Compute the dot products %% fold %% 
-    - Plug in data: $$\begin{align*}\mathbf{u} \cdot \mathbf{v} &= \left(\frac{1}{2}\right)(3) + \left(\frac{1}{2}\right)(1) + (5)(-2)=-8\\\\ \mathbf{u} \cdot \mathbf{w} &= \left(\frac{1}{2}\right)(4) + \left(\frac{1}{2}\right)(-3) + (5)(0) = \frac{1}{2}\\\\ \mathbf{v} \cdot \mathbf{w} &= (3)(4) + (1)(-3) + (-2)(0) = 9\end{align*}$$
-3. && Evaluate signs of the dot products %% fold %% 
+    - Plug in data: 
+    - $$
+    \begin{align*}\mathbf{u} \cdot \mathbf{v} &= \left(\frac{1}{2}\right)(3) + \left(\frac{1}{2}\right)(1) + (5)(-2)=-8\\\\ \mathbf{u} \cdot \mathbf{w} &= \left(\frac{1}{2}\right)(4) + \left(\frac{1}{2}\right)(-3) + (5)(0) = \frac{1}{2}\\\\ \mathbf{v} \cdot \mathbf{w} &= (3)(4) + (1)(-3) + (-2)(0) = 9\end{align*}$$
+1. && Evaluate signs of the dot products %% fold %% 
     - Angle between $\mathbf{u}$ and $\mathbf{v}$ is obtuse because $\mathbf{u} \cdot \mathbf{v}<0$
     - Angle between $\mathbf{u}$ and $\mathbf{w}$ is acute because $\mathbf{u} \cdot \mathbf{w}>0$
     - Angle between $\mathbf{v}$ and $\mathbf{w}$ is acute because $\mathbf{v} \cdot \mathbf{w}>0$
@@ -75,7 +77,8 @@ $$
     - Now $z$ and $y$ are determined by formulas in terms of $x$.
 3. !! Consider $x$ an independent parameter; change its name to $t$.
 4. && Combine all formulas into the parametric vector function $(x,y,z)=(16t,\;31t-20,\;-3t+20)$. %% fold %% 
-    - $$\left\{\begin{align*}x &= t \\y &= \frac{31}{16}t - \frac{5}{4} \\z &= -\frac{3}{16}t + \frac{5}{4}\end{align*}\right. \qquad ⨠⨠ \qquad (x,y,z)=\left(t,\;\frac{31}{16}t - \frac{5}{4},\;-\frac{3}{16}t + \frac{5}{4}\right)$$
+    $$
+    - \left\{\begin{align*}x &= t \\y &= \frac{31}{16}t - \frac{5}{4} \\z &= -\frac{3}{16}t + \frac{5}{4}\end{align*}\right. \qquad ⨠⨠ \qquad (x,y,z)=\left(t,\;\frac{31}{16}t - \frac{5}{4},\;-\frac{3}{16}t + \frac{5}{4}\right)$$
     - *If desired*, change parameter from $t$ to $16t$: $$(x,y,z)=(16t,\;31t-20,\;-3t+20)$$
     - This answers the first question.
 5. !!! The angle between two planes equals the angle between their normal vectors. %% fold %% 
