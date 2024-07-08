@@ -7,8 +7,15 @@ tags:
 1. && Compute $\mathbf{u} - \mathbf{v}$ and $\mathbf{u} + \mathbf{v}$ using the rules of vector addition  %% fold %% 
     - Componentwise addition, subtraction: $$\begin{align*}\mathbf{u} - \mathbf{v} &= \left(\begin{smallmatrix}4 \\ 0 \\ 3\end{smallmatrix}\right) - \left(\begin{smallmatrix}-2 \\ 1 \\ 5\end{smallmatrix}\right) = \left(\begin{smallmatrix}6 \\ -1 \\ -2\end{smallmatrix}\right)\\\\ \mathbf{u} + \mathbf{v} &= \left(\begin{smallmatrix}4 \\ 0 \\ 3\end{smallmatrix}\right) + \left(\begin{smallmatrix}-2 \\ 1 \\ 5\end{smallmatrix}\right) = \left(\begin{smallmatrix}2 \\ 1 \\ 8\end{smallmatrix}\right)\end{align*}$$
 2. && Compute norms using $|\mathbf{v}| = \sqrt{\mathbf{v} \cdot \mathbf{v}}$ %% fold %% 
-    - Plug in data: $$\begin{align*}|\mathbf{u}| &= \sqrt{4^2 + 0^2 + 3^2} = 5\\ |\mathbf{v}| &= \sqrt{(-2)^2 + 1^2 + 5^2} = \sqrt{30}\\ |\mathbf{u} - \mathbf{v}| &= \sqrt{6^2 + (-1)^2 + (-2)^2} = \sqrt{41}\\ |\mathbf{u} + \mathbf{v}| &= \sqrt{2^2 + 1^2 + 8^2} = \sqrt{69}\end{align*}$$
-3. && Verify $|\mathbf{u} + \mathbf{v}|^2 + |\mathbf{u} - \mathbf{v}|^2 = 2|\mathbf{u}|^2 + 2|\mathbf{v}|^2$ %% fold %% 
+    - Plug in data: 
+    - $$
+     \begin{align*}|\mathbf{u}| &= \sqrt{4^2 + 0^2 + 3^2} = 5\\ |\mathbf{v}| &= \sqrt{(-2)^2 + 1^2 + 5^2} = \sqrt{30}\\ |\mathbf{u} - \mathbf{v}| &= \sqrt{6^2 + (-1)^2 + (-2)^2} = \sqrt{41}\\ |\mathbf{u} + \mathbf{v}| &= \sqrt{2^2 + 1^2 + 8^2} = \sqrt{69}\end{align*}
+	 $$
+	 $$
+     \begin{align*}|\mathbf{u}| &= \sqrt{4^2 + 0^2 + 3^2} = 5\\ |\mathbf{v}| &= \sqrt{(-2)^2 + 1^2 + 5^2} = \sqrt{30}\\ |\mathbf{u} - \mathbf{v}| &= \sqrt{6^2 + (-1)^2 + (-2)^2} = \sqrt{41}\\ |\mathbf{u} + \mathbf{v}| &= \sqrt{2^2 + 1^2 + 8^2} = \sqrt{69}\end{align*}
+	 $$
+	 $$\begin{align*}|\mathbf{u}| &= \sqrt{4^2 + 0^2 + 3^2} = 5\\ |\mathbf{v}| &= \sqrt{(-2)^2 + 1^2 + 5^2} = \sqrt{30}\\ |\mathbf{u} - \mathbf{v}| &= \sqrt{6^2 + (-1)^2 + (-2)^2} = \sqrt{41}\\ |\mathbf{u} + \mathbf{v}| &= \sqrt{2^2 + 1^2 + 8^2} = \sqrt{69}\end{align*}$$
+1. && Verify $|\mathbf{u} + \mathbf{v}|^2 + |\mathbf{u} - \mathbf{v}|^2 = 2|\mathbf{u}|^2 + 2|\mathbf{v}|^2$ %% fold %% 
     - Plug in data: $$\begin{align*}|\mathbf{u} + \mathbf{v}|^2 + |\mathbf{u} - \mathbf{v}|^2 &= (\sqrt{69})^2 + (\sqrt{41})^2 = 110\\\\ 2|\mathbf{u}|^2 + 2|\mathbf{v}|^2 &= 2(5^2) + 2(\sqrt{30})^2 = 2(25) + 2(30) = 110\end{align*}$$
     - Substitute on both sides to verify equality.
 
