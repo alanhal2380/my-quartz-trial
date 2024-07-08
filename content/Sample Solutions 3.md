@@ -164,8 +164,9 @@ $$\mathbf{l} \cdot \mathbf{l} = 4^2 + 0^2 + (-1)^2 = 17$$
 
 $$
 \mathrm{proj}_{\mathbf{l}}(\mathbf{p} - \mathbf{r}_0) = \frac{15}{17} \mathbf{l} = \begin{pmatrix}60/17\\0\\-15/17
+
 \end{pmatrix}
-$$
+$$ 
 
 The final step is to find the distance between $\mathbf{p}$ and $\mathrm{proj}_{\mathbf{l}}(\mathbf{p} - \mathbf{r}_{0})+ \mathbf{r_0}$ 
 Add the projection vector to $\mathbf{r}_0$ to find the point on the line closest to $\mathbf{p}$: $$\mathrm{proj}_{\mathbf{l}}(\mathbf{p} - \mathbf{r}_0) + \mathbf{r}_0 = \begin{pmatrix} \frac{60}{17} \\ 0 \\ -\frac{15}{17} \end{pmatrix} + \begin{pmatrix} -2 \\ 3 \\ 1 \end{pmatrix} = \begin{pmatrix} \frac{26}{17} \\ 3 \\ \frac{2}{17} \end{pmatrix}$$ Now, find the vector from $\mathbf{p}$ to this point: $$\mathbf{p} - \left(\mathrm{proj}_{\mathbf{l}}(\mathbf{p} - \mathbf{r}_0) + \mathbf{r}_0\right) = \begin{pmatrix} 1 \\ 5 \\ -2 \end{pmatrix} - \begin{pmatrix} \frac{26}{17} \\ 3 \\ \frac{2}{17} \end{pmatrix} = \begin{pmatrix} \frac{-9}{17} \\ 2 \\ -\frac{36}{17} \end{pmatrix}$$ Finally, find the magnitude of this vector to get the distance: $$|\mathbf{p} - \left(\mathrm{proj}_{\mathbf{l}}(\mathbf{p} - \mathbf{r}_0) + \mathbf{r}_0\right)| = \sqrt{\left( \frac{-9}{17} \right)^2 + 2^2 + \left( -\frac{36}{17} \right)^2} = \sqrt{\frac{149}{17}}$$
