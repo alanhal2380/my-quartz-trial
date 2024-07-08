@@ -6,4 +6,5 @@ This is a blank Quartz installation.
 See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 [[Quartz Note]]
- 
+
+Lets see how [[Sample Solutions 3]] looks! 
