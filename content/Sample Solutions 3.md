@@ -1,5 +1,5 @@
 ---
-title: '"Sample Solutions 3"'
+title: This is the title! Sample Solutions 3
 draft: 
 tags:
 ---
