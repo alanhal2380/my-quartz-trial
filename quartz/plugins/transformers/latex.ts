@@ -8,21 +8,21 @@ interface Options {
 }
 
 export const Latex: QuartzTransformerPlugin<Options> = (opts?: Options) => {
-  const engine = opts?.renderEngine ?? "katex"
+  const engine = opts?.renderEngine ?? "mathjax"
   return {
     name: "Latex",
     markdownPlugins() {
       return [remarkMath]
     },
     htmlPlugins() {
-      if (engine === "katex") {
+      if (engine === "mathjax") {
         return [[rehypeKatex, { output: "html" }]]
       } else {
         return [rehypeMathjax]
       }
     },
     externalResources() {
-      if (engine === "katex") {
+      if (engine === "mathjax") {
         return {
           css: [
             // base css
