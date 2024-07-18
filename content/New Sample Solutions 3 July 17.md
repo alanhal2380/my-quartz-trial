@@ -152,7 +152,6 @@ $$(\mathbf{p} - \mathbf{r}_0) \cdot \mathbf{l} = \begin{pmatrix} 3 \\ 2 \\ -3 \e
 $$\mathbf{l} \cdot \mathbf{l} = 4^2 + 0^2 + (-1)^2 = 17$$
 
 $$\mathrm{proj}_{\mathbf{l}}(\mathbf{p} - \mathbf{r}_0) = \frac{15}{17} \mathbf{l} = \begin{pmatrix}60/17\\0\\-15/17
-
 \end{pmatrix}$$
 
 The final step is to find the distance between $\mathbf{p}$ and $\mathrm{proj}_{\mathbf{l}}(\mathbf{p} - \mathbf{r}_{0})+ \mathbf{r_0}$ 
